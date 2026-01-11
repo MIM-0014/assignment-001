@@ -10,6 +10,7 @@
   padding: 16px;
   font-size: 16px;
   font-weight: 400;
+  cursor: pointer;
 }
 nav li {
   list-style: none;
@@ -55,11 +56,30 @@ gap: auto;
   justify-content: center;
   text-align: center;
 }
-.btn-outline { background: transparent; border: 1px solid white; color: white; margin-left: 10px; }
+
+.highlight{
+  color: #30B868;
+  
+}
+.banner p {
+  padding: 20px;
+}
+.btn-outline { background: transparent; 
+             border: 1px solid white; 
+             color: white; 
+             margin-left: 10px; 
+              padding: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+            }
 
 
-.notes-section {
-    padding: 80px 8%;
+.notes h2 {
+    text-align: center;
+    padding: 20pxgi;
+}
+.notes .subtitle {
     text-align: center;
 }
 
@@ -117,6 +137,9 @@ gap: auto;
     padding: 60px;
     text-align: center;
     border-radius: 15px;}
+    .section3 p{
+      padding: 20px;
+    }
 
 .footer {
   background-color: #0f172a;
